@@ -1,6 +1,7 @@
 // import React from 'react';
 import AboutUsSection from '../componants/AboutUsSection';
 import HeroSection from '../componants/HeroSection';
+import SliderSection from '../componants/SliderSection';
 import WelcomeSection from '../componants/WelcomeSection';
 
 const HomePage = () => {
@@ -9,6 +10,7 @@ const HomePage = () => {
             <HeroSection />
             <AboutUsSection />
             <WelcomeSection />
+            <SliderSection />
         </div>
     );
 };
