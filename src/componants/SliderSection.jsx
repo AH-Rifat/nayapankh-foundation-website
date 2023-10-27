@@ -10,17 +10,17 @@ const SliderSection = () => {
         slidesToShow: 1,
         slidesToScroll: 1,
         autoplay: true,
-        speed: 2000,
-        autoplaySpeed: 2000,
+        speed: 4000,
+        autoplaySpeed: 3000,
         cssEase: "linear"
     };
 
     return (
-        <div className=''>
+        <div className='mb-10 w-[98%]'>
             <Slider {...settings}>
-                <img src={slider1} alt="" className="" />
-                <img src={slider2} alt="" className="" />
-                <img src={slider3} alt="" className="" />
+                <img src={slider1} alt="slider image" className="" />
+                <img src={slider2} alt="slider image" className="" />
+                <img src={slider3} alt="slider image" className="" />
             </Slider>
         </div>
     );
