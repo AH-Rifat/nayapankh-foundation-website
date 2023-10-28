@@ -1,5 +1,6 @@
 // import React from 'react';
 import AboutUsSection from '../componants/AboutUsSection';
+import FooterSection from '../componants/FooterSection';
 import HeroSection from '../componants/HeroSection';
 import OurTeamSection from '../componants/OurTeamSection';
 import SliderSection from '../componants/SliderSection';
@@ -13,6 +14,7 @@ const HomePage = () => {
             <WelcomeSection />
             <SliderSection />
             <OurTeamSection />
+            <FooterSection />
         </div>
     );
 };
